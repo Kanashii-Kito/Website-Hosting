@@ -1,0 +1,36 @@
+html,body,*{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div {
+    height: 500rem;
+    width: 30rem;
+    background-color: #ffffff;
+    /* margin is the space between elements */
+    margin: .5rem 1rem;
+    /* padding is space inside the element */
+    padding: 1rem;
+}
+
+body{
+    background-color: #1d232a;
+}
+
+
+.card-title{
+    margin: 0;
+    font-size: 1.8rem;
+    background-color: #ff0000;
+    font-weight: 600;
+}
+
+
+/* IDs are most specific and then class then element */
+/* #test {
+    background-color: #00ff00;
+} */
