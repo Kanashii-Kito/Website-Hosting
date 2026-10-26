@@ -6,31 +6,63 @@ html,body,*{
 }
 
 
+body {
+  background-color: #1d2f1d2a;
+  height: 100vh;
+}
+
+
+
+
+.header.bar{
+    margin: 0;
+    font-size: xx-large;
+    background-color: #1bf8f8;
+    font-weight: 600;
+    height: 9rem;
+    width:191.95rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    background-color: blue;
+    font: xx-large;
+}
 
 div {
-    height: 500rem;
-    width: 30rem;
-    background-color: #ffffff;
+    height: 45rem;
+    width: 40rem;
+    background-color: #ff1fff;
     /* margin is the space between elements */
     margin: .5rem 1rem;
     /* padding is space inside the element */
     padding: 1rem;
 }
 
-body{
-    background-color: #1d232a;
-}
 
-
-.card-title{
+.card{
     margin: 0;
     font-size: 1.8rem;
     background-color: #ff0000;
     font-weight: 600;
+    height: 42.75rem;
+    width: 37.75rem;
+    justify-content: center;
+    align-items: center;
 }
+
+h2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+
 
 
 /* IDs are most specific and then class then element */
 /* #test {
     background-color: #00ff00;
 } */
+ 
