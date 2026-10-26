@@ -26,9 +26,15 @@ body {
 }
 
 
-h1 {
+.header2 {
     background-color: blue;
-    font: xx-large;
+    margin: 0;
+    font-size: xx-large;
+    font-weight: 600;
+    height: 9rem;
+    width:191.95rem;
+    justify-content: center;
+    align-items: center;
 }
 
 div {
