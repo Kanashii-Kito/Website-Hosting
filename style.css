@@ -1,74 +1,60 @@
-html,body,*{
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+html,
+body,
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-
 body {
-  background-color: #1d2f1d2a;
-  height: 100vh;
+  background-color: #1d232a;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
-
-
-
-.header.bar{
-    margin: 0;
-    font-size: xx-large;
-    background-color: #1bf8f8;
-    font-weight: 600;
-    height: 9rem;
-    width:191.95rem;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.header2 {
-    background-color: blue;
-    margin: 0;
-    font-size: xx-large;
-    font-weight: 600;
-    height: 9rem;
-    width:191.95rem;
-    justify-content: center;
-    align-items: center;
-}
-
 div {
-    height: 45rem;
-    width: 40rem;
-    background-color: #ff1fff;
-    /* margin is the space between elements */
-    margin: .5rem 1rem;
-    /* padding is space inside the element */
-    padding: 1rem;
 }
-
-
-.card{
-    margin: 0;
-    font-size: 1.8rem;
-    background-color: #ff0000;
-    font-weight: 600;
-    height: 42.75rem;
-    width: 37.75rem;
-    justify-content: center;
-    align-items: center;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #191e24;
+  color: #ffffff;
+  width: 30rem;
+  height: 55rem;
+  /* margin is space between elements */
+  margin: 2.5rem 5rem;
+  border-radius: 0.8rem;
+  align-items: center;
 }
-
-h2 {
-    font-size: x-large;
-    text-align: center;
+.card-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
-
-
-
-
-/* IDs are most specific and then class then element */
-/* #test {
-    background-color: #00ff00;
-} */
- 
+.card-img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+.card-price {
+  margin: 0;
+}
+.card-btn {
+  height: 4rem;
+  padding: 0 1.6rem;
+  background-color: #605dff;
+  color: #edf0ff;
+  border: 1px solid #5250e0;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.card-btn:hover {
+  background-color: #7573ff;
+}
