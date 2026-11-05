@@ -4,6 +4,7 @@ html,
 body,
 * {
   font-size: 10px;
+  font-family: "Meow Script";
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -15,12 +16,24 @@ body,
   font-style: normal;
 }
 
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.gobackfont {
+  font-family: "Protest Riot", Normal;
+}
 
 body {
   background-color: #1d232a;
   font-family: ui-sans-serif, system-ui, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-family: "Protest Riot", Normal;
 }
 .hero {
   display: flex;
